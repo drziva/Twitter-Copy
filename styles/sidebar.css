@@ -1,0 +1,136 @@
+.sidebar {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  position: relative;
+  flex: 1;
+  max-width: 200px;
+  min-width: 80px;
+  height: 100vh;
+  background-color: rgb(22, 22, 22);
+  overflow-y: auto;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.sidebar-content-container{
+  display: relative;
+}
+.sidebar-content-1{
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  overflow-y: auto;
+}
+ .sidebar-pic,
+ .sidebar-icon-bookmark,
+ .sidebar-icon-comm,
+ .sidebar-icon-2,
+ .sidebar-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 50px;
+ }
+ .sidebar-pic img,
+ .sidebar-icon-bookmark img,
+ .sidebar-icon-comm img,
+ .sidebar-icon-2 img,
+ .sidebar-icon img{
+  width: 32px;
+  filter: invert(100%);
+  border-radius: 20px;
+ }
+
+ .sidebar-post-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+ }
+ .sidebar-post-icon img{
+  width: 55px;
+  filter: invert(0%);
+  border-radius: 30px;
+ }
+
+ .wide-sidebar-icon-3,
+ .wide-sidebar-icon-2,
+ .wide-sidebar-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .sidebar-icon-pic,
+ .sidebar-icon-2{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .sidebar-icon-pic img,
+ .sidebar-icon-2 img{
+  width: 32px;
+ }
+ .sidebar-icon-text{
+  width: 180px;
+  height: 50px;
+  font-size: 19px;
+  margin-left: 12px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+ }
+ .wide-post-button{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 230px;
+  height: 60px;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+ }
+ .wide-post-button button{
+  padding: 16px 85px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #1979b9;
+ }
+
+ .wide-sidebar-pic{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 230px;
+  padding-bottom: 25px;
+ }
+ .sidebar-icon-pic{
+  margin-top: 10px;
+ }
+ .sidebar-icon-pic img{
+  width: 45px;
+  border-radius: 25px;
+ }
+ .sidebar-pic-text{
+  font-size: 15px;
+  flex: 1;
+  padding-left: 10px;
+  line-height: 22px;
+  padding-top: 7px;
+ }
+ .three-dot-small{
+  margin-bottom: 12px;
+  margin-right: 10px;
+ }
+ .three-dot-small img{
+  filter: invert(70%);
+  width: 12px;
+ }

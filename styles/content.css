@@ -1,0 +1,139 @@
+.content {
+  margin-left: 200px; /* Adjusted to fit with the sidebar */
+  margin-top: 50px; /* Adjusted to fit with the header */
+  width: 600px;
+  height: 5000px;
+  background-color: black;
+  border: 1px solid gray;
+  border-top: none;
+  cursor: pointer;
+}
+
+
+.tweet{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+
+.tweet-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 100%; 
+
+}
+.tweet-profile-picture{
+  width: fit-content;
+  margin-top: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.tweet-profile-picture img{
+  width: 40px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.tweet-image-container{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 0px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+.tweet-image-container img{
+  width:100%;
+  border-radius: 20px;
+  margin-left: 5px;
+  border: 1px solid gray;
+}
+.tweet-bottom-icons{
+  margin-top: 6px;
+  margin-right: 3px;
+}
+
+.tweet-name{
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+.tweet-username{
+  color: gray;
+  font-weight: 300;
+  padding-left: 5px;
+}
+.tweet-text{
+  padding-left: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  width: 500px;
+}
+
+/*USED FOR THE CREATION OF TWEETS*/
+.create-tweet{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid gray;
+}
+.create-tweet img{
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 45px;
+  border-radius: 25px;
+}
+.tweet-input-div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 23px;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+.tweet-input{
+  height: 30px;
+  width: 98%;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  color: rgb(170, 168, 168);
+}
+.input-icons{
+  display: flex;
+  margin-top: 20px;
+  color: rgb(29, 155, 240);
+}
+.input-icons button{
+  padding: 8px 16px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(29, 155, 240);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.content-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.upload-image{
+  width: 30px;
+  
+}

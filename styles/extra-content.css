@@ -1,0 +1,183 @@
+.extra-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 65px;
+  margin-left: 20px;
+  margin-right: 25px;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: transparent;
+}
+
+
+/*______PREMIUM______*/
+
+.premium-subscribe{
+  padding: 10px 15px;
+  border: 1px solid gray;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: rgb(34, 34, 34);
+}
+.premium-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.premium-text{
+  font-size: 15px;
+  width: 85%;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.is-subscribed,
+.premium-subscribe-button{
+  background-color: #0c72b7;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #0c72b7;
+}
+.is-subscribed{
+  background-color: rgb(29, 29, 29);
+  border: 1px solid gray;
+}
+
+/*______TRENDS______*/
+
+.trends{
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: -190px;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: rgb(34, 34, 34);
+  z-index: 20;
+}
+.trends-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.trend-option{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trend-option-text{
+  margin: 10px 0px;
+  font-size: 13px;
+  color: rgb(104, 103, 103);
+  line-height: 20px;
+}
+.trend-option-span{
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.trend-option-button{
+  width: 30px;
+  border-radius: 30px;
+  height: 30px;
+  margin-top: 8px;
+  margin-right: 2px;
+  transition: background-color .25s;
+  cursor: pointer;
+}
+.trend-option-button:hover{
+  background-color: rgba(6, 155, 255, 0.15);
+}
+.trend-option img{
+  width: 15px;
+  filter: invert(40%);
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.showmore,
+.trends-showmore{
+  font-size: 15px;
+  color: #1381ca;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/*_____FOLLOW RECOMMEND_____*/
+
+.follow-recommendations{
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 470px;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: rgb(34, 34, 34);
+}
+.follow-recommend-title{
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+.follow-recommend-profile{
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.follow-recommend-picture{
+  width: 40px;
+}
+.follow-recommend-picture img{
+  width: 40px;
+  border-radius:25px;
+  position: relative;
+}
+.follow-recommend-name{
+  flex: 1;
+  padding-left: 5px;
+}
+.follow-recommend-button{
+  width: 85px;
+  display: flex;
+  justify-content: right;
+}
+
+.follow-recommended,
+.is-following{
+  margin-left: 0px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  background-color: #171e20;
+  cursor: pointer;
+}
+.is-following{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.showmore{
+  padding-bottom: 10px;
+}
+.law-bs{
+  position: sticky;
+  top: 760px;
+  color: gray;
+  font-size: 13px;
+  padding-left: 15px;
+  line-height: 22px;
+}
